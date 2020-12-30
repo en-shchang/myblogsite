@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>edit on MeOrdinary</title>
+    <link>https://en-shchang.github.io/tags/edit/</link>
+    <description>Recent content in edit on MeOrdinary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://en-shchang.github.io/tags/edit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test image</title>
+      <link>https://en-shchang.github.io/post/2017-03-07-bigimg-sample/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://en-shchang.github.io/post/2017-03-07-bigimg-sample/</guid>
+      <description>&lt;p&gt;will be back soon&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

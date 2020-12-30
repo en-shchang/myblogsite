@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>code on MeOrdinary</title>
-    <link>https://en-shchang.github.io/tags/code/</link>
-    <description>Recent content in code on MeOrdinary</description>
+    <title>test on MeOrdinary</title>
+    <link>https://en-shchang.github.io/tags/test/</link>
+    <description>Recent content in test on MeOrdinary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://en-shchang.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://en-shchang.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test code</title>
       <link>https://en-shchang.github.io/post2/2016-03-08-code-sample/</link>

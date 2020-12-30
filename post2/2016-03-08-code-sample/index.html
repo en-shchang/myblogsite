@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Pages - MeOrdinary</title>
+  <title>test code - MeOrdinary</title>
+  <meta name="description" content="Using Hugo or Pygments">
   <meta name="author" content="En-Shchang"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -28,14 +29,64 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/en-shchang.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/en-shchang.github.io\/post2\/2016-03-08-code-sample\/",
+          "name": "Test code"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "En-Shchang"
+  },
+  "headline": "test code",
+  "description" : "The following are two code samples using syntax highlighting.\n",
+  "inLanguage" : "en",
+  "wordCount":  152 ,
+  "datePublished" : "2020-12-20T00:00:00",
+  "dateModified" : "2020-12-20T00:00:00",
+  "image" : "https:\/\/en-shchang.github.io\/img\/avatar-icon.jpg",
+  "keywords" : [ "test, code" ],
+  "mainEntityOfPage" : "https:\/\/en-shchang.github.io\/post2\/2016-03-08-code-sample\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/en-shchang.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/en-shchang.github.io\/img\/avatar-icon.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Pages" />
+<meta property="og:title" content="test code" />
+<meta property="og:description" content="Using Hugo or Pygments">
 <meta property="og:image" content="https://en-shchang.github.io/img/avatar-icon.jpg" />
-<meta property="og:url" content="https://en-shchang.github.io/page/" />
+<meta property="og:url" content="https://en-shchang.github.io/post2/2016-03-08-code-sample/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="MeOrdinary" />
 
-  <meta name="twitter:title" content="Pages" />
+  <meta name="twitter:title" content="test code" />
+  <meta name="twitter:description" content="Using Hugo or Pygments">
   <meta name="twitter:image" content="https://en-shchang.github.io/img/avatar-icon.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="generator" content="Hugo 0.79.1" />
@@ -184,13 +235,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
+            <div class="post2-heading">
               
-                <h1>Pages</h1>
+                <h1>test code</h1>
               
               
                 <hr class="small">
               
+              
+                
+                  <h2 class="post2-subheading">Using Hugo or Pygments</h2>
+                
               
               
             </div>
@@ -202,78 +257,121 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="https://en-shchang.github.io/page/about/">
-        <h2 class="post-title">About Me</h2>
-        
-        <h3 class="post-subtitle">
-            I will complete this information soon
-        </h3>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;46&nbsp;words
-  
-  
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>The following are two code samples using syntax highlighting.</p>
+<p>The following is a code sample using triple backticks ( ``` ) code fencing provided in Hugo. This is client side highlighting and does not require any special installation.</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript">    <span class="kd">var</span> <span class="nx">num1</span><span class="p">,</span> <span class="nx">num2</span><span class="p">,</span> <span class="nx">sum</span>
     
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;En-Shchang
-    
+</code></pre></div><p>The following is a code sample using the &ldquo;highlight&rdquo; shortcode provided in Hugo. This is server side highlighting and requires Python and Pygments to be installed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript">    <span class="kd">var</span> <span class="nx">num1</span><span class="p">,</span> <span class="nx">num2</span><span class="p">,</span> <span class="nx">sum</span>
+    <span class="nx">num1</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="s2">&#34;Enter first number&#34;</span><span class="p">)</span>
+    <span class="nx">num2</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="s2">&#34;Enter second number&#34;</span><span class="p">)</span>
+    <span class="nx">sum</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">num1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">num2</span><span class="p">)</span> <span class="c1">// &#34;+&#34; means &#34;add&#34;
+</span><span class="c1"></span>    <span class="nx">alert</span><span class="p">(</span><span class="s2">&#34;Sum = &#34;</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">)</span>  <span class="c1">// &#34;+&#34; means combine into a string
+</span></code></pre></div>
+<p>And here is the same code with line numbers:</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="ln">1</span>    <span class="kd">var</span> <span class="nx">num1</span><span class="p">,</span> <span class="nx">num2</span><span class="p">,</span> <span class="nx">sum</span>
+<span class="ln">2</span>    <span class="nx">num1</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="s2">&#34;Enter first number&#34;</span><span class="p">)</span>
+<span class="ln">3</span>    <span class="nx">num2</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="s2">&#34;Enter second number&#34;</span><span class="p">)</span>
+<span class="ln">4</span>    <span class="nx">sum</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">num1</span><span class="p">)</span> <span class="o">+</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">num2</span><span class="p">)</span> <span class="c1">// &#34;+&#34; means &#34;add&#34;
+</span><span class="ln">5</span><span class="c1"></span>    <span class="nx">alert</span><span class="p">(</span><span class="s2">&#34;Sum = &#34;</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">)</span>  <span class="c1">// &#34;+&#34; means combine into a string
+</span></code></pre></div>
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://en-shchang.github.io/tags/test/">test</a>&nbsp;
+            
+              <a href="https://en-shchang.github.io/tags/code/">code</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fen-shchang.github.io%2fpost2%2f2016-03-08-code-sample%2f&amp;text=test%20code&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
   
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fen-shchang.github.io%2fpost2%2f2016-03-08-code-sample%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
   
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>My name is En Shchang.</p>
-<ul>
-<li>I start this website as a notebook to record the problems that I met during my self-study</li>
-<li>I would like to share with you on learning the coding, science and foreign language</li>
-</ul>
-<h3 id="my-hoby">My hoby?</h3>
-<p>I think I would say <strong>watching movie</strong></p>
-
-        
-    </div>
-
-    
-
-</article>
-          
-        </div>
-        
-      </div>
-    </div>
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fen-shchang.github.io%2fpost2%2f2016-03-08-code-sample%2f&amp;title=test%20code" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fen-shchang.github.io%2fpost2%2f2016-03-08-code-sample%2f&amp;title=test%20code" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fen-shchang.github.io%2fpost2%2f2016-03-08-code-sample%2f&amp;title=test%20code" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fen-shchang.github.io%2fpost2%2f2016-03-08-code-sample%2f&amp;description=test%20code" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
   </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
 
       
-    <div class="page-meta">
-  
-  
-  
+        <ul class="pager blog-pager">
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
 </div>
 
-
-  
+      
 <footer>
   <div class="container">
     <div class="row">
